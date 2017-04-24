@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('bulma.css');
+
+body {
+	font-family: 'Comfortaa', cursive;
+	background-color: #FFFDF4;
+}
+
+.logo {
+	width: 3rem;
+}
+
+.nav {
+	border-bottom: solid #3C91E6 1px;
+	position: fixed;
+	width: 100vw;
+}
+
+.tile {
+	margin: 10px;
+}
+
+.blue-background {
+	background-color: #3C91E6;
+	border-radius: 5px;
+}
+
+.purple-background {
+	background-color: #DFC2F2;
+	border-radius: 5px;
+}
+
+.padding {
+	padding: 25px;
+}
+
+.big-page {
+	height: 60vh;
+	padding-top: 20vh;
+}
+
+.white-font {
+	color: #FFFFFF;
+	font-size: 2.5rem;
+}
+
+.small {
+	width: 2rem;
+}

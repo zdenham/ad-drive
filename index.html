@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ad Drive</title>
+  <meta name="author" content="Zachary Denham">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="main.css?">
+</head>
+
+<body>
+
+  <nav class="nav has-shadow">
+    <div class="nav-center">
+      <img class="logo" src="/assets/car.png" alt="Bulma logo">
+    </div>
+  </nav>
+
+  <div class='hero-body'>
+
+    <div class='container has-text-centered content is-large big-page'>
+        <h1> Ad drive </h1>
+        <h5> a better way to advertise. </h5>
+        <a> <img class="small" src="/assets/down-arrow.png"></a>
+    </div>
+
+
+    <div class='tile is-parent' >
+      <div class='tile is-vertical is-9 blue-background padding has-text-centered'>
+        <h3 class='white-font'> Video Content </h3>
+        <video controls>
+          <source src='/assets/video.mp4' type="video/mp4">
+        </video>
+      </div>
+      <div class='tile is-vertical purple-background padding is-large has-text-centered'>
+        <h3 class='white-font'> Ad </h3>
+        <div> 
+          <img style='margin-bottom: -30px' src="/assets/ad.png">
+        </div>
+      </div> 
+    </div>
+    <hr>
+  </div>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <script> 
+    $(".small").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".is-parent").offset().top - 50},
+        'slow');
+    });
+  </script>
+</body>
+</html>
+
